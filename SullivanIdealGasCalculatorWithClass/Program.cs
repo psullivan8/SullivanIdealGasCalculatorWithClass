@@ -100,7 +100,6 @@ namespace SullivanIdealGasCalculatorWithClass
             string header = file.ReadLine();
             //While loop that iterates over the values until the end of the file is reach.
             while ((line = file.ReadLine()) != null)
-                try
                 {
                     //Splitting values at each instance of the comma character.
                     String[] gas = line.Split(',');
@@ -109,11 +108,6 @@ namespace SullivanIdealGasCalculatorWithClass
                     weights.Add(double.Parse(gas[1]));
                     count++;
                 }
-                catch (Exception)
-                {
-
-                }
-
             gasNames = names.ToArray();
             molecularWeights = weights.ToArray();
         }
