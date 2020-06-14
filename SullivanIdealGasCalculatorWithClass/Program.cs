@@ -9,6 +9,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
+//TODO: Good job.  95/100
+
 namespace SullivanIdealGasCalculatorWithClass
 {
     class Program

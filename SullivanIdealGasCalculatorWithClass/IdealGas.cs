@@ -71,6 +71,8 @@ namespace SullivanIdealGasCalculatorWithClass
 
         private void Calc()
         {
+            //TODO:  Use your constants here, too or make them class constants  -5
+            //TODO:  Either way, they are constants
             // this should be in calculate method. Your get method should just have a return statement. RJG
             double celcius = temp;
             double kelvin = 0;
